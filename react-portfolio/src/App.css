@@ -1,0 +1,76 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(154, 195, 181);
+  height: 7em;
+}
+
+.nav-link-list {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 23px;
+  margin: 15px;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-link-list:active {
+  color: #fff;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 15px;
+  padding: 10px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #fff;
+}
+
+#nameText {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  margin: 15px;
+  font-size: 35px;
+  font-weight: bolder;
+  text-decoration: none;
+   
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #5e78a0;
+  height: 5.5rem;
+}
+
+.footer-ctn {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+}
