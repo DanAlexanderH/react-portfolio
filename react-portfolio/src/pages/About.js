@@ -2,26 +2,10 @@
 
 function About() {
   return (
- <>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
-    <h1>About</h1>
- </>
+    <main className="about-ctn">
+      <h2>About Me</h2>
+      
+    </main>
   
 
   )

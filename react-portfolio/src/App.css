@@ -1,4 +1,8 @@
 .App{
+
+  /* background: linear-gradient(109.6deg, rgb(0, 37, 84) 11.2%, rgba(0, 37, 84, 0.32) 100.2%); */
+  background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -6,13 +10,15 @@
 .navBar {
   display: flex;
   justify-content: flex-end;
-  background-color: rgb(154, 195, 181);
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
   height: 7em;
 }
 
 .nav-link-list {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype";
-  font-size: 23px;
+  font-size: 25px;
   margin: 15px;
   padding: 10px;
   text-decoration: none;
@@ -37,23 +43,29 @@ a:visited {
 .nav-link:hover {
   font-weight: bold;
   color: #fff;
+  text-decoration: underline;
 }
 
 #nameText {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'EB Garamond', serif;
+  color: #4c73a5;
+  font-style: italic;
   position: absolute;
   left: 0;
   padding: 15px;
   margin: 15px;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bolder;
   text-decoration: none;
+  letter-spacing: 1px;
+  text-shadow: 1px 0 #4c73a5;
    
 }
 
 .footer {
   margin-top: auto;
-  background-color: #5e78a0;
+  background-color: rgb(95, 120, 142);
   height: 5.5rem;
 }
 
@@ -64,13 +76,14 @@ a:visited {
 
 .footer-link {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype";
-  font-size: 23px;
-  font-weight: bold;
+  font-size: 15px;
   text-decoration: none;
+  margin: 10px;
   padding: 10px;
   color: #fff;
 }
 
 .copyright {
+  font-size: 12px;
   text-align: center;
 }
