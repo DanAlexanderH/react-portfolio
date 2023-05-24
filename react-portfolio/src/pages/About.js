@@ -3,7 +3,7 @@ import profilePhoto from '../images/profilePhoto.png'
 function About() {
   return (
   <>
-       <h2 className="about-h2">About Me</h2>
+       <h2 className="about-h2">A Little Bit About Me</h2>
     <main className="about-ctn">
         <p className="about-p">My name is Daniel Alexander Hernandez. I am a full stack web developer and current student at UCI Coding Bootcamp. 
           I am eager to learn new skills and produce amazing applications. I am a team player and excited for my future in programming. 
