@@ -18,7 +18,7 @@
 
 .nav-link-list {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype";
-  font-size: 25px;
+  font-size: 30px;
   margin: 15px;
   padding: 10px;
   text-decoration: none;
@@ -55,7 +55,7 @@ a:visited {
   left: 0;
   padding: 15px;
   margin: 15px;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bolder;
   text-decoration: none;
   letter-spacing: 1px;
@@ -76,7 +76,7 @@ a:visited {
 
 .footer-link {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype";
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
   margin: 10px;
   padding: 10px;
@@ -84,34 +84,196 @@ a:visited {
 }
 
 .copyright {
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
 }
 
 .about-h2 {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype";
-  color: #fff;
-  font-size: 35px;
+  color: #4c73a5;
+  font-size: 40px;
   text-align: center;
 }
 
 .about-ctn {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 30px;
+  margin: 30px;
 }
 
 .about-p {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype";
   color: #fff;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   width: 40rem;
 
 }
 
 .profile-pic {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 650px;
   border: 2px solid #555;
-  border-radius: 30%;
+  border-radius: 25%;
+}
+
+.resume-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 60px; */
+}
+
+.resume-p {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 40px;
+  font-weight: bold;
+  color: #4c73a5;
+}
+
+.resume-image {
+  height: 40rem;
+  width: 40rem;
+}
+
+.resume-image:hover{
+  height: 41rem;
+  width: 41rem;
+}
+
+.expertise-title {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 40px;
+  color: #fff;
+}
+
+.expertise-list {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  list-style: none;
+  font-size: 30px;
+  word-spacing: 10px;
+  color: #fff;
+}
+
+.contact-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.contact-h1 {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  text-align: center;
+  font-size: 40px;
+  color: #4c73a5;
+}
+
+.form-p {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 28px;
+  color: #fff;
+  text-decoration: underline;
+}
+.form-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  border: 3px solid rgb(17, 25, 63);
+  width: 520px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #cfcdcd;
+
+}
+
+#fname {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 25px;
+  margin: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  outline: none;
+}
+
+#lname {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 25px;
+  margin: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+#email {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 25px;
+  margin: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+#message {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  text-align: center;
+  font-size: 25px;
+  margin: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  resize: none;
+}
+
+.form-btn {
+  align-self: center;
+  font-size: 23px;
+  border-radius: 10px;
+  background-color: #4c73a5;
+  cursor: pointer;
+}
+
+.project-ctn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-h1 {
+  font-size: 35px;
+  color: #4c73a5;
+  text-align: center;
+
+}
+
+.project-fig {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.project-p {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.project-img {
+  height: 400px;
+  width: 500px;
+}
+
+.project-link {
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype";
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
 }
