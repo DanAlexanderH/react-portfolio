@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f33bfeb9.css",
+    "main.js": "/static/js/main.be1abc01.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/profilePhoto.png": "/static/media/profilePhoto.08c195bfd57e4f1772f8.png",
+    "static/media/PerfectWeekend.png": "/static/media/PerfectWeekend.0270b6406c4753babfb7.png",
+    "static/media/resume.png": "/static/media/resume.175588b36c8c3d86ba8e.png",
+    "static/media/EmployeeTracker.png": "/static/media/EmployeeTracker.7c593428ad86e266ceae.png",
+    "static/media/WeatherDashboard.png": "/static/media/WeatherDashboard.4c7cacf30d3f544b1ced.png",
+    "static/media/TeamGenerator.png": "/static/media/TeamGenerator.5ba58f50f0c29f62cf7a.png",
+    "static/media/TechBlog.png": "/static/media/TechBlog.56a631730a2910acedc5.png",
+    "static/media/PWATextEditor.png": "/static/media/PWATextEditor.3071e6c009b715d285d0.png",
+    "index.html": "/index.html",
+    "main.f33bfeb9.css.map": "/static/css/main.f33bfeb9.css.map",
+    "main.be1abc01.js.map": "/static/js/main.be1abc01.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f33bfeb9.css",
+    "static/js/main.be1abc01.js"
+  ]
+}
