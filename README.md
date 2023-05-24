@@ -23,7 +23,7 @@ This is an application created with React to showcase a porfolio of myself inclu
 
 To get this application working, simply visit the deployed link listed below.
 
-**insert link
+https://danalexanderh.github.io/react-portfolio/
 
 <br>
 
