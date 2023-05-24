@@ -31,5 +31,5 @@ https://danalexanderh.github.io/react-portfolio/
 
 This is a very simple application, all users need to do is click on any of the navigation tabs to be directed to the corresponding page.
 
-![Portfolio Image](./react-portfolio/src/images/reactPortfolio.png)
+![Portfolio Image](./docs/src/images/reactPortfolio.png)
 
